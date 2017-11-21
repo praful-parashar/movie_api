@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+This is the body.
+<script type="text/javascript">
+movie = prompt("movie name?")
+
+</script>
+<form method="POST" action="">{% csrf_token %}
+movie: <input type="text" name="movie">
+<input type="submit" value="search">
+</form>
+</body>
+</html>
